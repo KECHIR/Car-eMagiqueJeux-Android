@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context="com.example.cash.sumgame.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_gravity="center"
+        android:text="Numbers 1 to 9 have to be used once and only once " />
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="7"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal" >
+
+
+
+
+
+        <EditText android:id="@+id/grid1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:hint="\?" android:maxLength="1"
+            android:ems="2"
+            android:textSize="25dp"
+            android:inputType="number"
+            android:gravity="center_horizontal"
+            />
+
+
+        <TextView  android:id="@+id/textviextest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="+" />
+
+
+
+        <EditText android:id="@+id/grid1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:hint="\?"  android:maxLength="1"
+            android:ems="2"
+            android:textSize="25dp"
+            android:inputType="number"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="+" />
+
+
+        <EditText android:id="@+id/grid1_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:hint="\?"  android:maxLength="1"
+            android:ems="2"
+            android:textSize="25dp"
+            android:inputType="number"
+            android:gravity="center_horizontal"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="=" />
+
+        <TextView android:id="@+id/result1_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="12" />
+
+
+
+
+
+        <EditText android:id="@+id/grid2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:hint="\?"  android:maxLength="1"
+            android:ems="2"
+            android:textSize="25dp"
+            android:inputType="number"
+            android:gravity="center_horizontal"
+
+
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="+" />
+
+
+        <EditText android:id="@+id/grid2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:hint="\?"  android:maxLength="1"
+            android:ems="2"
+            android:textSize="25dp"
+            android:inputType="number"
+            android:gravity="center_horizontal"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="+" />
+
+
+        <EditText android:id="@+id/grid2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:hint="\?"  android:maxLength="1"
+            android:ems="2"
+            android:textSize="25dp"
+            android:inputType="number"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="=" />
+
+        <TextView android:id="@+id/result2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="13" />
+
+
+        <EditText android:id="@+id/grid3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:hint="\?" android:maxLength="1"
+            android:ems="2"
+            android:textSize="25dp"
+            android:inputType="number"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="+" />
+
+        <EditText android:id="@+id/grid3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:hint="\?"  android:maxLength="1"
+            android:ems="2"
+            android:textSize="25dp"
+            android:inputType="number"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="+" />
+
+        <EditText android:id="@+id/grid3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:hint="\?"  android:maxLength="1"
+            android:ems="2"
+            android:textSize="25dp"
+            android:inputType="number"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="=" />
+
+        <TextView android:id="@+id/result3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="20" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="=" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="=" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="=" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="" />
+
+
+
+
+
+
+
+        <TextView android:id="@+id/result4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="11" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="" />
+
+
+        <TextView android:id="@+id/result4_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="20" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="" />
+
+
+        <TextView  android:id="@+id/result4_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="14" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:columnCount="2"
+        android:orientation="horizontal">
+
+        <Button   android:id="@+id/Buttonsubmit" android:text="Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  android:onClick="Valider" />
+        <Button   android:id="@+id/buttonContinue" android:text="New Game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  android:onClick="OnclickNewgame"    />
+        <Button   android:id="@+id/help" android:text="Help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  android:onClick="helpClick"   />
+        <Button   android:id="@+id/Currenthigh" android:text="Statistique"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  android:onClick="Currenthighscore"   />
+
+
+
+    </GridLayout>
+
+
+    <Chronometer
+
+        android:id="@+id/chronometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:format="%s"
+
+        android:gravity="center"
+
+        android:textSize="40sp" />
+
+
+
+
+    <TextView android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="" />
+
+
+    <TextView android:id="@+id/score1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="" />
+
+
+
+</LinearLayout>

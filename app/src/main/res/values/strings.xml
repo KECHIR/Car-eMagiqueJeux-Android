@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SumGame</string>
+
+
+    <string name="textview1">Les numéros 1 à 9 doivent être
+                             utilisé une fois et une seule fois
+    </string>
+
+    <string name="grid1_1"></string>
+
+
+</resources>
